@@ -1,6 +1,6 @@
-open class Greet {
+class Greet {
     companion object {
-        protected fun isStringUpperCase(string: String): Boolean {
+         fun isStringUpperCase(string: String): Boolean {
             val chars = string.toCharArray()
             for (char in chars) {
                 if (!char.isUpperCase()) return false
